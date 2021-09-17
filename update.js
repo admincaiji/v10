@@ -7,14 +7,14 @@ var comm1 = {
 		}
 	},
 	'update': {
-		'vers': '5.6',
+		'vers': '1.0',
 				'init': function() {
 					if(verv10 == this.vers){
 						layer.alert('当前已经是最新版了，无需更新！');				
 					}else{
 						var output = '<ul>';
-							output += '<li class="layui-text">新增自动切换接口</li>';
-							output += '<li class="layui-text">1、[修复] 苹果cms_5.0版本快捷菜单添加</li>';
+							output += '<li class="layui-text">修复部分BUG</li>';
+							output += '<li class="layui-text">1、[优化] 优化手机端各种自适应</li>';
 						    output += '</ul>';						
 						layer.confirm(output, {
 								area: '300px',
@@ -34,13 +34,13 @@ var comm1 = {
 											});
 										}else{
 										    layer.alert(res.msg, {title:'更新失败，请手动下载离线安装包覆盖更新！',icon: 5,closeBtn: 0},function(index) {
-							                    top.location.href = 'https://www.ayuancms.com/';
+							                    top.location.href = 'https://www.admincj.com/';
 						                    });
 										}
 									},
 									error: function(res){
 										layer.alert(res.msg, {title:'更新失败，请手动下载离线安装包覆盖更新！',icon: 5,closeBtn: 0},function(index) {
-							                top.location.href = 'https://www.ayuancms.com/';
+							                top.location.href = 'https://www.admincj.com/';
 						                });
 									}
 							});	
