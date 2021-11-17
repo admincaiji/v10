@@ -5,16 +5,16 @@ var v10guanggao = {
              'tips': '<font color="red">此区为广告位投放广告请联系飞机：viphsdy</font>',
              'rows': [
              {
-                     'url1': 'https://www.siwazyw.tv',
-                     'tip1': '丝袜资源网丝袜资源网',
-                     'url2': 'https://www.siwazyw.tv',
-                     'tip2': '丝袜资源网丝袜资源网',
-                     'url3': 'https://www.siwazyw.tv',
-                     'tip3': '丝袜资源网丝袜资源网',
-                     'url4': 'https://www.siwazyw.tv',
-                     'tip4': '丝袜资源网丝袜资源网',
-                     'url5': 'https://www.siwazyw.tv',
-                     'tip5': '丝袜资源网丝袜资源网',
+                     'url1': 'https://www.admincj.com',
+                     'tip1': 'Admin采集插件',
+                     'url2': 'https://www.admincj.com',
+                     'tip2': 'Admin采集插件',
+                     'url3': 'https://www.admincj.com',
+                     'tip3': 'Admin采集插件',
+                     'url4': 'https://www.admincj.com',
+                     'tip4': 'Admin采集插件',
+                     'url5': 'https://www.admincj.com',
+                     'tip5': 'Admin采集插件',
                  },
                
                  ]
